@@ -14,7 +14,7 @@ def directors_totals(nds)
 
     while second_count < nds.count do
 
-      round_total += nds[first_count][:movies][0][:worldwide_gross]
+      round_total += nds[first_count][:movies][1][:worldwide_gross]
       second_count += 1
     end
     result[nds[first_count][:name]] = round_total
