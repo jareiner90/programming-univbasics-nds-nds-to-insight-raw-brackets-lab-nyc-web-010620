@@ -16,6 +16,7 @@ def directors_totals(nds)
       round_total += nds[first_count][:movies][second_count][:worldwide_gross]
       second_count += 1
     end
+    result[nds[first_count][:name]] = round_total
     first_count += 1
 
   end
