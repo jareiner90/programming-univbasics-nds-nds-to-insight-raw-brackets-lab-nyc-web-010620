@@ -6,7 +6,7 @@ def directors_totals(nds)
 
   }
 
-  
+
   first_count = 0
 
   while first_count < nds.count do
